@@ -2,6 +2,11 @@
 
 Additional JSON schemas for kubeval
 
+* cert-manager
+* istio
+* prometheus-operator
+* sealed-secrets
+
 ## Usage
 
 ```sh
