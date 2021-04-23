@@ -2,6 +2,7 @@
 
 Additional JSON schemas for kubeval
 
+* appmesh-controller
 * cert-manager
 * istio
 * prometheus-operator
