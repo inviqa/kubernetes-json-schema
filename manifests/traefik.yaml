@@ -1,4 +1,4 @@
-# Source: https://github.com/containous/traefik-helm-chart/tree/6b4a9a16bd02e4d83fc8f72ba259ac69d20b7799/traefik/crds
+# Source: https://github.com/traefik/traefik-helm-chart/tree/b1cdb1796eca765f23cb44e6c7ea73abe6e6ce85/traefik/crds
 ---
 apiVersion: apiextensions.k8s.io/v1beta1
 kind: CustomResourceDefinition
@@ -51,6 +51,19 @@ spec:
     kind: Middleware
     plural: middlewares
     singular: middleware
+  scope: Namespaced
+---
+apiVersion: apiextensions.k8s.io/v1beta1
+kind: CustomResourceDefinition
+metadata:
+  name: serverstransports.traefik.containo.us
+spec:
+  group: traefik.containo.us
+  version: v1alpha1
+  names:
+    kind: ServersTransport
+    plural: serverstransports
+    singular: serverstransport
   scope: Namespaced
 ---
 apiVersion: apiextensions.k8s.io/v1beta1
