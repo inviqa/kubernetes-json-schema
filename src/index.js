@@ -6,6 +6,7 @@ async function run() {
     // future additional versions of supported k8s releases should be added
     await App.writeSchemasTo('docs/schema/master-standalone', schemas)
     await App.writeSchemasTo('docs/schema/1.17.4-standalone', schemas)
+    await App.writeSchemasTo('docs/schema/1.18.20-standalone', schemas)
     await App.writeSchemasTo('docs/schema/v1.19.16-standalone', schemas)
     await App.writeSchemasTo('docs/schema/v1.20.15-standalone', schemas)
     await App.writeSchemasTo('docs/schema/v1.21.9-standalone', schemas)
