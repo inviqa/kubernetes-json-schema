@@ -20,6 +20,13 @@ async function run() {
     await App.writeSchemasTo('docs/schema/v1.23.7-standalone', schemas)
     await App.writeSchemasTo('docs/schema/v1.24.0-standalone', schemas)
     await App.writeSchemasTo('docs/schema/v1.24.1-standalone', schemas)
+    await App.writeSchemasTo('docs/schema/v1.24.16-standalone', schemas)
+    await App.writeSchemasTo('docs/schema/v1.25.0-standalone', schemas)
+    await App.writeSchemasTo('docs/schema/v1.25.12-standalone', schemas)
+    await App.writeSchemasTo('docs/schema/v1.26.0-standalone', schemas)
+    await App.writeSchemasTo('docs/schema/v1.26.7-standalone', schemas)
+    await App.writeSchemasTo('docs/schema/v1.27.0-standalone', schemas)
+    await App.writeSchemasTo('docs/schema/v1.27.4-standalone', schemas)
 }
 
 run()
