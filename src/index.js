@@ -27,6 +27,8 @@ async function run() {
     await App.writeSchemasTo('docs/schema/v1.26.7-standalone', schemas)
     await App.writeSchemasTo('docs/schema/v1.27.0-standalone', schemas)
     await App.writeSchemasTo('docs/schema/v1.27.4-standalone', schemas)
+    await App.writeSchemasTo('docs/schema/v1.28.0-standalone', schemas)
+    await App.writeSchemasTo('docs/schema/v1.28.2-standalone', schemas)
 }
 
 run()
